@@ -57,11 +57,11 @@ class App extends Component {
         <Header></Header>
         <Wrapper>
           <div class="row">
-            <div class="column">
+            {/* <div class="column"> */}
               {this.shuffleArray().map(character => (
                 <CharacterCard image={character.image} name={character.name} key={character.name} selectCharacter={this.selectCharacter} />
               ))}
-            </div>
+            {/* </div> */}
           </div>
 
         </Wrapper>

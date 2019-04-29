@@ -30,11 +30,12 @@
   
   .card > .content > ul {
     list-style-type: none;
+    padding-left: 0px;
     
   }
   
   .card > .content > ul > li {
     margin-top: 10px;
     font-size: 12px;
-    
+    text-align: center;
   }
